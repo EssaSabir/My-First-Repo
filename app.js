@@ -153,8 +153,53 @@
 // console.log(mainChild2,"\n")
 // console.log(document.getElementsByTagName("div"))
 
-var mainchild = document.childNodes[1].childNodes[1].childNodes[0].childNodes[0].childNodes[0].childNodes[1]
-console.log(mainchild)
+// var mainchild = document.childNodes[1].childNodes[1].childNodes[0].childNodes[0].childNodes[0].childNodes[1]
+// console.log(mainchild)
 
-var paragraph = document.getElementById("paragraph").childNodes
-console.log(paragraph)
+// var paragraph = document.getElementById("paragraph").childNodes
+// console.log(paragraph)
+
+// var parantDiv = document.getElementById("paragraph").childNodes
+// console.log(parantDiv,"childNodes")
+// var parantDiv1 = document.getElementById("paragraph").children
+// console.log(parantDiv1,"children")
+// var parantDiv2 = document.getElementById("paragraph").lastChild
+// console.log(parantDiv2, "last child")
+// var parantDiv3 = document.getElementById("paragraph").firstChild
+// console.log(parantDiv3, "first child")
+// var parantDiv4 = document.getElementById("paragraph").firstElementChild
+// console.log(parantDiv4, "first elment")
+// var parantDiv5 = document.getElementById("paragraph").lastElementChild
+// console.log(parantDiv5, "last element")
+
+// var d = document.getElementById("humpty");
+// var pCounter = 0;
+// for (var i = 0; i < d.childNodes.length; i++) {
+//     if (d.childNodes[i].nodeType === 1) {
+//         pCounter++;
+//     }
+//     if (pCounter === 2) {
+//         d.childNodes[i].innerHTML = "All his men.";
+//     }
+// }
+
+// var data = document.getElementById("humpti")
+// var dcount = 0
+// for(var i = 0;i<data.childNodes.length;i++){
+//     if(data.childNodes[i].nodeType===1){
+//         dcount++
+//     }
+//     if(dcount===2){
+//         data.childNodes[i].innerHTML="All his men."
+//     }
+// }
+
+var kidNode = document.getElementById("humpty")
+var pNode = kidNode.parentNode
+console.log(pNode, "parent")
+var nSib = kidNode.nextSibling
+console.log(nSib, "next sibling")
+var pSib = kidNode.previousSibling
+console.log(pSib, "previous sibling")
+var nodeName = kidNode.nodeName
+console.log(nodeName, "node name")
