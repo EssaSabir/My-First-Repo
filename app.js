@@ -1,3 +1,5 @@
+
+
 // var number = 1.642424278148
 // var roundNumber = Math.round(number)
 // console.log(roundNumber,"roundNumber")
@@ -145,8 +147,14 @@
 //     }
 // }
 
-var mainChild = document.childNodes[1].childNodes[1].childNodes[0].childNodes[0].childNodes[0].childNodes[1].innerHTML
-var mainChild2 = document.childNodes[1].childNodes[1].childNodes[0].childNodes[1].childNodes[0].childNodes[1].innerHTML
-console.log(mainChild,"\n")
-console.log(mainChild2,"\n")
-console.log(document.getElementsByTagName("div"))
+// var mainChild = document.childNodes[1].childNodes[1].childNodes[0].childNodes[0].childNodes[0].childNodes[1].innerHTML
+// var mainChild2 = document.childNodes[1].childNodes[1].childNodes[0].childNodes[1].childNodes[0].childNodes[1].innerHTML
+// console.log(mainChild,"\n")
+// console.log(mainChild2,"\n")
+// console.log(document.getElementsByTagName("div"))
+
+var mainchild = document.childNodes[1].childNodes[1].childNodes[0].childNodes[0].childNodes[0].childNodes[1]
+console.log(mainchild)
+
+var paragraph = document.getElementById("paragraph").childNodes
+console.log(paragraph)
